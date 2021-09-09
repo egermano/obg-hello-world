@@ -2,4 +2,6 @@ const helloWorld = (name) => {
     console.log(`Hello ${name ? name : 'World'}!`);
 }
 
-helloWorld('Germano');
+const name = 'Germano';
+
+helloWorld(name);
