@@ -1,5 +1,7 @@
+const { print } = require('./print');
+
 const helloWorld = (name) => {
-    console.log(`Hello ${name ? name : 'World'}!`);
+    print(`Hello ${name ? name : 'World'}!`)
 }
 
 const name = 'Germano';
